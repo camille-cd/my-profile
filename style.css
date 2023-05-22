@@ -1,0 +1,90 @@
+body {
+	background-color: #fffcf2;
+	color: #403d39;
+	font-family: helvetica neue;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+		color: #cb997e;
+	font-family: helvetica neue light;
+	font-weight: 50;
+	letter-spacing: 8px;
+	font-size: 25px;
+	text-transform: lowercase;
+}
+
+
+a {
+	font-family: helvetica neue light;
+	font-size: 15px;
+	text-decoration: none;
+	color: #e0afa0;
+	font-weight: bold;
+}
+a:hover {
+	color: grey;
+}
+
+/* Custom design wth class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 800px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 30px;
+	box-shadow: 0 10px 20px rgba(0,0,0,.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.img-circle {
+	width: 150px;
+	border-radius: 50%;
+	box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn-beige {
+	background-color: #fffcf2;
+	color: #cb997e;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+.btn-beige:hover {
+	background color: black;
+	color: #cb997e;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
